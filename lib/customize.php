@@ -21,8 +21,8 @@ add_action( 'customize_register', 'atmosphere_customizer_register' );
 function atmosphere_customizer_register( $wp_customize ) {
 
 	$wp_customize->add_section( 'atmosphere-image', array(
-		'title'       => __( 'Front Page Image', 'atmosphere-pro' ),
-		'description' => __( '<p>Use the default image or personalize your site by uploading your own image for the front page 1 widget background.</p><p>The default image is <strong>1600 x 1050 pixels</strong>.</p>', 'atmosphere-pro' ),
+		'title'       => __( 'Front Page Image', 'automate' ),
+		'description' => __( '<p>Use the default image or personalize your site by uploading your own image for the front page 1 widget background.</p><p>The default image is <strong>1600 x 1050 pixels</strong>.</p>', 'automate' ),
 		'priority'    => 75,
 	) );
 
@@ -37,7 +37,7 @@ function atmosphere_customizer_register( $wp_customize ) {
 			$wp_customize,
 			'front-background-image',
 			array(
-				'label'    => __( 'Front Image Upload', 'atmosphere-pro' ),
+				'label'    => __( 'Front Image Upload', 'automate' ),
 				'section'  => 'atmosphere-image',
 				'settings' => 'atmosphere-front-image',
 			)
@@ -57,8 +57,8 @@ function atmosphere_customizer_register( $wp_customize ) {
 			$wp_customize,
 			'atmosphere_link_color',
 			array(
-				'description' => __( '<p>Change the default color for linked titles, menu links, post info links and more.</p>', 'atmosphere-pro' ),
-				'label'       => __( 'Link Color', 'atmosphere-pro' ),
+				'description' => __( '<p>Change the default color for linked titles, menu links, post info links and more.</p>', 'automate' ),
+				'label'       => __( 'Link Color', 'automate' ),
 				'section'     => 'colors',
 				'settings'    => 'atmosphere_link_color',
 			)
@@ -78,8 +78,8 @@ function atmosphere_customizer_register( $wp_customize ) {
 			$wp_customize,
 			'atmosphere_accent_color',
 			array(
-				'description' => __( '<p>Change the default color for button hover, the footer widget background, and the first section on the front page when an image is not displayed.</p>', 'atmosphere-pro' ),
-				'label'       => __( 'Accent Color', 'atmosphere-pro' ),
+				'description' => __( '<p>Change the default color for button hover, the footer widget background, and the first section on the front page when an image is not displayed.</p>', 'automate' ),
+				'label'       => __( 'Accent Color', 'automate' ),
 				'section'     => 'colors',
 				'settings'    => 'atmosphere_accent_color',
 			)

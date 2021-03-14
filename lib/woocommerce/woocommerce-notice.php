@@ -51,7 +51,7 @@ function atmosphere_woocommerce_theme_notice() {
 		return;
 	}
 
-	$notice_html = sprintf( __( 'Please install and activate <a href="https://wordpress.org/plugins/genesis-connect-woocommerce/" target="_blank">Genesis Connect for WooCommerce</a> to <strong>enable WooCommerce support for %s</strong>.', 'atmosphere-pro' ), esc_html( CHILD_THEME_NAME ) );
+	$notice_html = sprintf( __( 'Please install and activate <a href="https://wordpress.org/plugins/genesis-connect-woocommerce/" target="_blank">Genesis Connect for WooCommerce</a> to <strong>enable WooCommerce support for %s</strong>.', 'automate' ), esc_html( CHILD_THEME_NAME ) );
 
 	if ( current_user_can( 'install_plugins' ) ) {
 		$plugin_slug  = 'genesis-connect-woocommerce';
@@ -65,9 +65,9 @@ function atmosphere_woocommerce_theme_notice() {
 				$admin_url
 			),
 			'install-plugin_' . $plugin_slug
-		), __( 'install and activate Genesis Connect for WooCommerce', 'atmosphere-pro' ) );
+		), __( 'install and activate Genesis Connect for WooCommerce', 'automate' ) );
 
-		$notice_html = sprintf( __( 'Please %s to <strong>enable WooCommerce support for %s</strong>.', 'atmosphere-pro' ), $install_link, esc_html( CHILD_THEME_NAME ) );
+		$notice_html = sprintf( __( 'Please %s to <strong>enable WooCommerce support for %s</strong>.', 'automate' ), $install_link, esc_html( CHILD_THEME_NAME ) );
 	}
 
 	echo '<div class="notice notice-info is-dismissible atmosphere-woocommerce-notice"><p>' . $notice_html . '</p></div>';

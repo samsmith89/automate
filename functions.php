@@ -9,6 +9,46 @@
  * @license GPL-2.0+
  * @link    http://my.studiopress.com/themes/atmosphere/
  */
+// Require the composer autoload for getting conflict-free access to enqueue
+require_once __DIR__ . '/vendor/autoload.php';
+
+// Instantiate
+class MyPluginInit {
+	/**
+	 * @var \WPackio\Enqueue
+	 */
+	public $enqueue;
+
+	public function __construct() {
+		// It is important that we init the Enqueue class right at the plugin/theme load time
+		$this->enqueue = new \WPackio\Enqueue(
+		// Name of the project, same as `appName` in wpackio.project.js
+			'automate',
+			// Output directory, same as `outputPath` in wpackio.project.js
+			'dist',
+			// Version of your plugin
+			'1.0.0',
+			// Type of your project, same as `type` in wpackio.project.js
+			'theme',
+			// Plugin location, pass false in case of theme.
+			false,
+			'child'
+		);
+		// Enqueue a few of our entry points
+		add_action( 'wp_enqueue_scripts', [ $this, 'theme_enqueue' ] );
+	}
+
+	public function theme_enqueue() {
+		// Enqueue files[0] (name = app) - entryPoint main
+		$this->enqueue->enqueue( 'js', 'main', [] );
+		// Enqueue files[0] (name = app) - entryPoint mobile
+		$this->enqueue->enqueue( 'styles', 'main', [] );
+	}
+}
+
+
+// Init
+new MyPluginInit();
 
 // Start the engine.
 include_once( get_template_directory() . '/lib/init.php' );
@@ -19,7 +59,7 @@ include_once( get_stylesheet_directory() . '/lib/theme-defaults.php' );
 // Set Localization (do not remove).
 add_action( 'after_setup_theme', 'atmosphere_localization_setup' );
 function atmosphere_localization_setup(){
-	load_child_theme_textdomain( 'atmosphere-pro', get_stylesheet_directory() . '/languages' );
+	load_child_theme_textdomain( 'automate', get_stylesheet_directory() . '/languages' );
 }
 
 // Add helper functions.
@@ -66,9 +106,9 @@ function atmosphere_scripts_styles() {
 function atmosphere_responsive_menu_settings() {
 
 	$settings = array(
-		'mainMenu'         => __( 'Menu', 'atmosphere-pro' ),
+		'mainMenu'         => __( 'Menu', 'automate' ),
 		'menuIconClass'    => 'ionicons-before ion-ios-drag',
-		'subMenu'          => __( 'Submenu', 'atmosphere-pro' ),
+		'subMenu'          => __( 'Submenu', 'automate' ),
 		'subMenuIconClass' => 'ionicons-before ion-ios-arrow-down',
 		'menuClasses'      => array(
 			'others' => array(
@@ -109,7 +149,7 @@ add_theme_support( 'custom-background' );
 add_theme_support( 'genesis-after-entry-widget-area' );
 
 // Rename primary and secondary navigation menus.
-add_theme_support( 'genesis-menus', array( 'primary' => __( 'Header Menu', 'atmosphere-pro' ), 'secondary' => __( 'Footer Menu', 'atmosphere-pro' ) ) );
+add_theme_support( 'genesis-menus', array( 'primary' => __( 'Header Menu', 'automate' ), 'secondary' => __( 'Footer Menu', 'automate' ) ) );
 
 // Remove output of primary navigation right extras.
 remove_filter( 'genesis_nav_items', 'genesis_nav_right', 10, 2 );
@@ -288,21 +328,21 @@ add_theme_support( 'genesis-footer-widgets', 1 );
 // Register widget areas.
 genesis_register_sidebar( array(
 	'id'          => 'front-page-1',
-	'name'        => __( 'Front Page 1', 'atmosphere-pro' ),
-	'description' => __( 'This is the 1st section on the front page.', 'atmosphere-pro' ),
+	'name'        => __( 'Front Page 1', 'automate' ),
+	'description' => __( 'This is the 1st section on the front page.', 'automate' ),
 ) );
 genesis_register_sidebar( array(
 	'id'          => 'front-page-2',
-	'name'        => __( 'Front Page 2', 'atmosphere-pro' ),
-	'description' => __( 'This is the 2nd section on the front page.', 'atmosphere-pro' ),
+	'name'        => __( 'Front Page 2', 'automate' ),
+	'description' => __( 'This is the 2nd section on the front page.', 'automate' ),
 ) );
 genesis_register_sidebar( array(
 	'id'          => 'front-page-3',
-	'name'        => __( 'Front Page 3', 'atmosphere-pro' ),
-	'description' => __( 'This is the 3rd section on the front page.', 'atmosphere-pro' ),
+	'name'        => __( 'Front Page 3', 'automate' ),
+	'description' => __( 'This is the 3rd section on the front page.', 'automate' ),
 ) );
 genesis_register_sidebar( array(
 	'id'          => 'front-page-4',
-	'name'        => __( 'Front Page 4', 'atmosphere-pro' ),
-	'description' => __( 'This is the 4th section on the front page.', 'atmosphere-pro' ),
+	'name'        => __( 'Front Page 4', 'automate' ),
+	'description' => __( 'This is the 4th section on the front page.', 'automate' ),
 ) );

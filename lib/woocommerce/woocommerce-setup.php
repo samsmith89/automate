@@ -84,8 +84,8 @@ add_filter( 'woocommerce_pagination_args', 'atmosphere_woocommerce_pagination' )
  */
 function atmosphere_woocommerce_pagination( $args ) {
 
-	$args['prev_text'] = sprintf( '&laquo; %s', __( 'Previous Page', 'atmosphere-pro' ) );
-	$args['next_text'] = sprintf( '%s &raquo;', __( 'Next Page', 'atmosphere-pro' ) );
+	$args['prev_text'] = sprintf( '&laquo; %s', __( 'Previous Page', 'automate' ) );
+	$args['next_text'] = sprintf( '%s &raquo;', __( 'Next Page', 'automate' ) );
 
 	return $args;
 
