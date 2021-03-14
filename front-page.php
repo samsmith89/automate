@@ -97,7 +97,7 @@ function atmosphere_image_body_class( $classes ) {
 // Add markup for front page widgets.
 function atmosphere_front_page_widgets() {
 
-	echo '<h2 class="screen-reader-text">' . __( 'Main Content', 'atmosphere-pro' ) . '</h2>';
+	echo '<h2 class="screen-reader-text">' . __( 'Main Content', 'automate' ) . '</h2>';
 
 	genesis_widget_area( 'front-page-1', array(
 		'before' => '<div id="front-page-1" class="front-page-1"><div class="widget-area"><div class="wrap">',

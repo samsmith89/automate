@@ -278,7 +278,7 @@
 		<link>http://demo.studiopress.com/atmosphere/beautiful-place/sample-1/</link>
 		<pubDate>Sun, 30 Aug 2015 01:27:25 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://www.studiopress.com/images/atmosphere-pro/sample-1.jpg</guid>
+		<guid isPermaLink="false">http://www.studiopress.com/images/automate/sample-1.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -294,7 +294,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.studiopress.com/images/atmosphere-pro/sample-1.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.studiopress.com/images/automate/sample-1.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2015/08/sample-1.jpg]]></wp:meta_value>
@@ -309,7 +309,7 @@
 		<link>http://demo.studiopress.com/atmosphere/mountains/sample-2-2/</link>
 		<pubDate>Sun, 30 Aug 2015 01:29:20 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://www.studiopress.com/images/atmosphere-pro/sample-2.jpg</guid>
+		<guid isPermaLink="false">http://www.studiopress.com/images/automate/sample-2.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -325,7 +325,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.studiopress.com/images/atmosphere-pro/sample-2.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.studiopress.com/images/automate/sample-2.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2015/08/sample-2.jpg]]></wp:meta_value>
@@ -340,7 +340,7 @@
 		<link>http://demo.studiopress.com/atmosphere/san-francisco/sample-3-2/</link>
 		<pubDate>Sun, 30 Aug 2015 01:29:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://www.studiopress.com/images/atmosphere-pro/sample-3.jpg</guid>
+		<guid isPermaLink="false">http://www.studiopress.com/images/automate/sample-3.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -356,7 +356,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.studiopress.com/images/atmosphere-pro/sample-3.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.studiopress.com/images/automate/sample-3.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2015/08/sample-3.jpg]]></wp:meta_value>
@@ -371,7 +371,7 @@
 		<link>http://demo.studiopress.com/atmosphere/road/sample-4-2/</link>
 		<pubDate>Sun, 30 Aug 2015 01:29:56 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://www.studiopress.com/images/atmosphere-pro/sample-4.jpg</guid>
+		<guid isPermaLink="false">http://www.studiopress.com/images/automate/sample-4.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -387,7 +387,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.studiopress.com/images/atmosphere-pro/sample-4.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.studiopress.com/images/automate/sample-4.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2015/08/sample-4.jpg]]></wp:meta_value>
@@ -402,7 +402,7 @@
 		<link>http://demo.studiopress.com/atmosphere/risks/sample-5-2/</link>
 		<pubDate>Sun, 30 Aug 2015 01:30:19 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://www.studiopress.com/images/atmosphere-pro/sample-5.jpg</guid>
+		<guid isPermaLink="false">http://www.studiopress.com/images/automate/sample-5.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -418,7 +418,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.studiopress.com/images/atmosphere-pro/sample-5.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.studiopress.com/images/automate/sample-5.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2015/08/sample-5.jpg]]></wp:meta_value>
@@ -433,7 +433,7 @@
 		<link>http://demo.studiopress.com/atmosphere/about/about/</link>
 		<pubDate>Wed, 02 Sep 2015 15:24:03 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://www.studiopress.com/images/atmosphere-pro/about.jpg</guid>
+		<guid isPermaLink="false">http://www.studiopress.com/images/automate/about.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -449,7 +449,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://www.studiopress.com/images/atmosphere-pro/about.jpg]]></wp:attachment_url>
+		<wp:attachment_url><![CDATA[http://www.studiopress.com/images/automate/about.jpg]]></wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 			<wp:meta_value><![CDATA[2015/09/about.jpg]]></wp:meta_value>
@@ -3192,7 +3192,7 @@ This is an example of a WordPress page, you could edit this to put information a
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis/?p=11</guid>
 		<description></description>
-		<content:encoded><![CDATA[<img src="http://www.studiopress.com/images/atmosphere-pro/sample-5.jpg" alt="Sample" />
+		<content:encoded><![CDATA[<img src="http://www.studiopress.com/images/automate/sample-5.jpg" alt="Sample" />
 
 <p class="intro">This is a sample intro paragraph.<p>
 
@@ -3241,7 +3241,7 @@ This is an example of a WordPress post, you could edit this to put information a
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis/?p=13</guid>
 		<description></description>
-		<content:encoded><![CDATA[<img src="http://www.studiopress.com/images/atmosphere-pro/sample-4.jpg" alt="Sample" />
+		<content:encoded><![CDATA[<img src="http://www.studiopress.com/images/automate/sample-4.jpg" alt="Sample" />
 
 <p class="intro">This is a sample intro paragraph.<p>
 
@@ -3290,7 +3290,7 @@ This is an example of a WordPress post, you could edit this to put information a
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis/?p=16</guid>
 		<description></description>
-		<content:encoded><![CDATA[<img src="http://www.studiopress.com/images/atmosphere-pro/sample-3.jpg" alt="Sample" />
+		<content:encoded><![CDATA[<img src="http://www.studiopress.com/images/automate/sample-3.jpg" alt="Sample" />
 
 <p class="intro">This is a sample intro paragraph.<p>
 
@@ -3339,7 +3339,7 @@ This is an example of a WordPress post, you could edit this to put information a
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis/?p=18</guid>
 		<description></description>
-		<content:encoded><![CDATA[<img src="http://www.studiopress.com/images/atmosphere-pro/sample-2.jpg" alt="Sample" />
+		<content:encoded><![CDATA[<img src="http://www.studiopress.com/images/automate/sample-2.jpg" alt="Sample" />
 
 <p class="intro">This is a sample intro paragraph.<p>
 
@@ -3392,7 +3392,7 @@ This is an example of a WordPress post, you could edit this to put information a
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://demo.studiopress.com/genesis/?p=20</guid>
 		<description></description>
-		<content:encoded><![CDATA[<img src="http://www.studiopress.com/images/atmosphere-pro/sample-1.jpg" alt="Sample" />
+		<content:encoded><![CDATA[<img src="http://www.studiopress.com/images/automate/sample-1.jpg" alt="Sample" />
 
 <p class="intro">This is a sample intro paragraph.<p>
 
@@ -3617,7 +3617,7 @@ This is an example of a WordPress page, you could edit this to put information a
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://themedemo.me/atmosphere/?page_id=696</guid>
 		<description></description>
-		<content:encoded><![CDATA[<img src="http://www.studiopress.com/images/atmosphere-pro/about.jpg" alt="About Atmosphere" />
+		<content:encoded><![CDATA[<img src="http://www.studiopress.com/images/automate/about.jpg" alt="About Atmosphere" />
 
 <strong>1. Atmosphere is simply divine.</strong>
 
