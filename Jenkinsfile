@@ -5,9 +5,9 @@ pipeline {
             steps {
                 script {
                     if (env.action.contains("closed")) {
-                        echo "first check"
+                        echo "first check" + env.action + env.merged
                         if (env.merged) {
-                            echo "second check"
+                            echo "second checks" + env.merged
                         }
                     }
                 }
