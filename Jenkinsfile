@@ -7,7 +7,7 @@ pipeline {
                     if (env.action.contains("closed")) {
                         echo "first check"
                         if (env.merged) {
-                            echo "second check"
+                            echo "second checks"
                         }
                     }
                 }
