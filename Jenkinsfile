@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    echo 'hello pipeline: '+ env.myParameter
+                    echo 'hello pipeline: '+ env.ref
                 }
                 sh 'echo "Hello World"'
                 sh '''
