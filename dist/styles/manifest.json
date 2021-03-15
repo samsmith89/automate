@@ -1,0 +1,30 @@
+{
+  "main.css": "styles/main.css",
+  "main.css.map": "styles/main.css.map",
+  "main.js": "styles/main.js",
+  "main.js.map": "styles/main.js.map",
+  "runtime.js": "styles/runtime.js",
+  "runtime.js.map": "styles/runtime.js.map",
+  "vendors~main.js": "styles/vendors~main.js",
+  "vendors~main.js.map": "styles/vendors~main.js.map",
+  "wpackioEp": {
+    "main": {
+      "js": [
+        "styles/runtime.js",
+        "styles/vendors~main.js",
+        "styles/main.js"
+      ],
+      "js.map": [
+        "styles/runtime.js.map",
+        "styles/vendors~main.js.map",
+        "styles/main.js.map"
+      ],
+      "css": [
+        "styles/main.css"
+      ],
+      "css.map": [
+        "styles/main.css.map"
+      ]
+    }
+  }
+}
