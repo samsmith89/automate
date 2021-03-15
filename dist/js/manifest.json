@@ -1,0 +1,22 @@
+{
+  "main.js": "js/main.js",
+  "main.js.map": "js/main.js.map",
+  "runtime.js": "js/runtime.js",
+  "runtime.js.map": "js/runtime.js.map",
+  "vendors~main.js": "js/vendors~main.js",
+  "vendors~main.js.map": "js/vendors~main.js.map",
+  "wpackioEp": {
+    "main": {
+      "js": [
+        "js/runtime.js",
+        "js/vendors~main.js",
+        "js/main.js"
+      ],
+      "js.map": [
+        "js/runtime.js.map",
+        "js/vendors~main.js.map",
+        "js/main.js.map"
+      ]
+    }
+  }
+}
