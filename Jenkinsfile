@@ -6,6 +6,9 @@ pipeline {
                 script {
                     if (env.action.contains("closed") && env.merged) {
                         echo "working" + env.action + env.merged
+                    } else {
+                        currentBuild.result = 'SUCCESS';
+                        return;
                     }
                 }
             }
