@@ -8,7 +8,7 @@ pipeline {
                         if (env.merged == true) {
                             echo "built"
                         }
-                    {
+                    }
                 }
             }
         }
