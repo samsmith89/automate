@@ -4,9 +4,10 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    if (env.action == "closed") {
-                        if (env.merged == true) {
-                            echo "built"
+                    if (env.action.contains("closed")) {
+                    echo "first check"
+                        if (env.merged.contains(true) {
+                            echo "second check"
                         }
                     }
                 }
